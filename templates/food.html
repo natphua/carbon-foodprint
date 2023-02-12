@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+    <title>Carbon Footprint Food Tracker</title>
+    <link rel="stylesheet" href="static/style.css"/>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">CARBON FOODPRINT</div>
+      <div class="nav-items">
+        <a href="/">Home</a> 
+      </div>
+    </nav>
+    <section class="carbon">
+          <h2>Select the primary components of your meal</h2>
+    </section>
+
+  <div class="title_dropdown">
+    <p>Click on the boxes to open the dropdown menu.</p>
+  </div>
+  
+  <form action="result" method="POST">
+    <label for="proteins">Choose a protein:</label>
+    <select name="proteins" id="proteins">
+      <option value="Lamb & Mutton">Lamb & Mutton</option>
+      <option value="Beef">Beef</option>
+      <option value="Poultry">Poultry</option>
+      <option value="Fish">Fish</option>
+      <option value="Buffalo">Buffalo</option>
+      <option value="Pork">Pork</option>
+      <option value="Eggs">Eggs</option>
+      <option value="Tofu">Tofu</option>
+      <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="proteins2">Choose a 2nd protein:</label>
+    <select name="proteins2" id="proteins2">
+      <option value="Lamb & Mutton">Lamb & Mutton</option>
+      <option value="Beef">Beef</option>
+      <option value="Poultry">Poultry</option>
+      <option value="Fish">Fish</option>
+      <option value="Buffalo">Buffalo</option>
+      <option value="Pork">Pork</option>
+      <option value="Tofu">Tofu</option>
+      <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="fruits">Choose a fruit:</label>
+    <select name="fruits" id="fruits">
+      <option value="Citrus Fruit">Citrus Fruit</option>
+      <option value="Berries & Grapes">Berries & Grapes</option>
+      <option value="Bananas">Bananas</option>
+      <option value="Apples">Apples</option> 
+       <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="beverage">Choose a beverage:</label>
+    <select name="drink" id="drink">
+      <option value="Wine">Wine</option>
+      <option value="Coffee">Coffee</option>
+      <option value="Milk">Milk</option>
+      <option value="Beer">Beer</option>
+      <option value="Soymilk">Soymilk</option>
+       <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="carbs">Choose a carb:</label>
+    <select name="carbs" id="carbs">
+      <option value="Wheat & Rye (Bread)">Wheat & Rye (Bread)</option>
+      <option value="Maize (Meal)">Maize (Meal)</option>
+      <option value="Oatmeal">Oatmeal</option>
+      <option value="Rice">Rice</option> 
+      <option value="Cassava">Cassava</option>
+       <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="vegetable">Choose a vegetable <label>
+    <select name="vegetable" id="vegetable">
+      <option value="Potatoes">Potatoes</option>
+      <option value="Peas">Peas</option>
+      <option value="Tofu">Tofu</option>
+      <option value="Onions & Leeks">Onions & Leeks</option> 
+      <option value="Root Vegetables">Root Vegetables</option>
+      <option value="Other Vegetables">Other Vegetables </option>
+      <option value="Root Vegetables">Root Vegetables</option>
+       <option value="None">None</option>
+    </select>
+    <br></br>
+    <label for="extra">Choose a condiment(something else that was added to your meal either in the cooking process or on the side) <label>
+    <select name="condiments" id="condiments">
+      <option value="Soybean Oil">Soybean Oil</option>
+      <option value="Palm Oil">Palm Oil</option>
+      <option value="Cheese">Cheese</option>
+      <option value="Honey">Honey</option> 
+      <option value="Butter, Cream & Ghee">Butter, Cream & Ghee </option>
+      <option value="Sunflower Oil">Sunflower Oil</option>
+      <option value="Rapeseed Oil">Rapeseed Oil</option>
+      <option value="Olive Oil">Olive Oil</option>
+      <option value="None">None</option>
+    </select>
+    <br></br>
+    <input class="_submit" type="submit" value="submit">
+  </form>
+</body>
+</html>
